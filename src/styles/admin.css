@@ -1,0 +1,95 @@
+/* Admin dash ------------------------------------------------------------------------------------------*/
+.containerA{
+    margin: 20px auto;
+  
+     
+}
+.contactFrom{
+   /* margin-left: 30% !important;*/
+}
+/*Table*/
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+th {
+    border: 1px solid #777;
+    padding: 0.5rem;
+    text-align: center;
+    padding: 8px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #1c4e80;
+    color: aliceblue;
+    
+}
+
+td{
+    border: 0.01px solid #a0a0a06d;
+    padding: 0.5rem;
+    text-align: center;
+}
+
+tbody tr:nth-child(odd) {
+    background: #eee;
+}
+
+caption {
+    font-size: 0.8rem;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+/*buutton*/
+.updbtn{
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+	background-color: #097714;
+}
+
+.addbtn{
+    display: flex;
+    align-items: flex-start;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+	background-color: #072579;
+    
+
+}
+
+.delebtn{
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+	background-color: #770909;
+}
+
+.addbtn:hover{
+    background-color: #0031b8;
+}
+
+.updbtn:hover{
+    background-color: #00970f;
+}
+
+.delebtn:hover{
+    background-color: #ae0000;
+}
+

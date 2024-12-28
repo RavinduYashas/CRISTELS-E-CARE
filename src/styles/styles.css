@@ -1,0 +1,290 @@
+/* hedder--------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 195, 201);
+    
+}
+
+.main {
+    width: 100%;
+    background-color: #f2f2f2;
+     
+}
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    
+}
+ul li a:hover{
+	color: rgb(9, 195, 201);
+}
+
+.manu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.login {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+}
+.btn:hover{
+    color:  rgb(9, 195, 201);
+}
+ 
+
+.btn{
+	width: 95px;
+	height: 30px;
+	background: rgb(11, 11, 128);
+	border: 2px solid rgb(11, 11, 128);
+	margin-top: 13px;
+	color: white;
+	font-size: 17px;
+	border-radius: 5px;
+}
+
+.log{
+    display: flex;
+    flex-direction: column;
+}
+
+h1{
+    margin-left: 35%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+}
+
+/* footer---------------------------------------------- */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+
+footer center {
+    text-align: center;
+}
+  
+  
+.foicon img {
+    width: 30px;
+    height: 30px; 
+    margin-right: 10px; 
+}
+  
+ 
+.fot {
+    text-decoration: none;
+    color: #fff; 
+    margin-right: 20px; 
+}
+  
+.fot:hover {
+  text-decoration: underline;
+  color: black;
+}
+  
+
+.hr1 {
+    border: 1px solid #000000;
+    margin: 20px 0;
+}
+
+
+/* homepage---------------------------------- */
+
+a{
+    text-decoration: none;
+    color: white;
+}
+.aboutUsbtn{
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+	background-color: #001870;
+}
+
+.aboutUsbtn:hover{
+    background-color: #007fa2;
+}
+
+.topic{
+    font-size: 40px;
+}
+
+.topic p{
+    font-size: 20px;
+}
+
+/* -----------------------About us------------------------------------------------------------------- */
+
+
+
+.dImages{
+	margin: 25px;
+ }
+ .aRow{
+	display: flex;
+ }
+
+.aboutUsRow{
+	margin: 15px;
+
+	
+}
+
+.dfrom{
+	padding: 15px;
+	border: 50px;
+	border-radius: 10px;
+	background-color:white;
+	margin: 5px;
+	
+}
+
+.dfrom1{
+	height: 475px;
+	width: 800px;
+}
+
+p{
+    font-size: 20px;
+}
+
+
+/* --------doc channe--------------------------- */
+.card-slider{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    justify-content: space-evenly;
+    padding: 30px;
+    padding-bottom: 40px;
+    
+  }
+  .card{
+    background-color: rgb(2, 124, 151);
+    padding: 10px;
+    border: #000000;
+    margin-top: 10px;
+    
+  }
+  .buttonc{
+    width: 95px;
+      height: 30px;
+      background: rgb(5, 21, 22);
+      border: 2px solid rgb(5, 21, 22);
+      margin-top: 13px;
+      color: white;
+      font-size: 17px;
+      border-radius: 5px;
+  }
+  
+  .buttonc:hover{
+    color: rgb(0, 151, 185);
+  }
+  
+  .next{
+    width: 50px;
+      height: 30px;
+      background: rgb(5, 21, 22);
+      border: 2px solid rgb(5, 21, 22);
+      margin-top: 13px;
+      color: white;
+      font-size: 17px;
+      border-radius: 5px;
+    margin-left: 10px;
+  }
+  .next:hover{
+    color: rgb(0, 151, 185);
+  }
+
+
+
+.terms{
+    margin: 70px;
+    background-color: white;
+    padding: 30px;
+}
+
+h2{
+    color: red;
+}
+
+
+/* --------supportdesk--------------------------- */
+
+.updbtn{
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 6px;
+    margin-right: 10px;
+	background-color: #097714;
+}
+
+.faqfrom{
+    margin: 60px;
+    background-color: #f2f2f2;
+    padding: 40px;
+}
+.see-more{
+    color: blue;
+}
+
+/* --------doc boking--------------------------- */
+.dBooking{
+    padding: 50px;
+    background-color: #f2f2f2;
+    margin: 50px;
+}
+
+
+/* -------home------------------------- */
+.homback{
+    background-color: #ffffff81 ;
+    margin: 60px;
+    padding: 50px;
+    border: #000000;
+    border-radius: 50px;
+
+}
+.hed{
+    font-size: 400px;
+    
+}
+
+
+/* -------pp--------------------- */
+.pp{
+    background-color: #f2f2f2;
+    margin: 50px;
+    padding: 50px;
+}

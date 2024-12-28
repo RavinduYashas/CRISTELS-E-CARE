@@ -1,0 +1,455 @@
+/* hedder--------------------------------------------- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 195, 201);
+    
+  }
+  
+  .main {
+    width: 100%;
+    background-color: #f2f2f2;
+     
+  }
+  
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 15px;
+    font-size: 18px;
+    
+  }
+  ul li a:hover{
+  color: rgb(9, 195, 201);
+  }
+  
+  .manu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .login {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+  }
+  .btn:hover{
+    color:  rgb(9, 195, 201);
+  }
+  
+  
+  .btn{
+  width: 95px;
+  height: 30px;
+  background: rgb(11, 11, 128);
+  border: 2px solid rgb(11, 11, 128);
+  margin-top: 13px;
+  color: white;
+  font-size: 17px;
+  border-radius: 5px;
+  }
+  
+  .log{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+  
+  /* footer---------------------------------------------- */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  footer center {
+    text-align: center;
+  }
+  
+  
+  .foicon img {
+    width: 30px;
+    height: 30px; 
+    margin-right: 10px; 
+  }
+  
+  
+  .fot {
+    text-decoration: none;
+    color: #fff; 
+    margin-right: 20px; 
+  }
+  
+  .fot:hover {
+  text-decoration: underline;
+  color: black;
+  }
+  
+  
+  .hr1 {
+    border: 1px solid #000000;
+    margin: 20px 0;
+  }
+  
+  
+  /* ---------------------------------- */
+  
+  
+  
+  
+  
+  
+  
+  
+  body {
+      font-family: sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  
+  header {
+      background-color: #f0f0f0;
+      padding: 20px 0;
+  }
+  
+  .container {
+      max-width: 1000px;
+      margin: 0 auto;
+  }
+  
+  .logo {
+      float: left;
+      font-size: 24px;
+      font-weight: bold;
+  }
+  
+  nav {
+      float: right;
+  }
+  
+  .footer {
+      width: 100%;
+      height: 300px;
+      background-color: rgb(42, 40, 40);
+      color: white;
+      position: relative;
+  }
+  /* Fit Forge Logo in footer */
+  .logo1 {
+      margin-left: 50px;
+      height: 200px;
+      width: 150px;
+  }
+  .img{
+    margin-top: 40px;
+  }
+  
+  /* contact us / about us */
+  .img a{
+    margin-top: -150px;
+  }
+  
+  .contact-info {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 6px;
+    margin-left: 50px;
+  }
+  
+  .contact-info div {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .spacer {
+    margin: 0 80px;
+  }
+  
+  .calendar {
+      font-family: Arial, sans-serif;
+      margin-left: 760px;
+      margin-top: -150px;
+    }
+    
+  .calendar table {
+      width: 15%;
+      border-collapse: collapse;
+    }
+    
+    .calendar th,
+    .calendar td {
+      padding: 10px;
+      text-align: center;
+      color: #161616;
+      border: 1px solid #ccc;
+      background-color: #e7e7e1;
+    }
+    
+    .calendar th {
+      background-color: #e9e3e3;
+    }
+    
+    .calendar td:hover {
+      background-color: #ce1212;
+    }
+    
+  .today{
+      color: #a19f1a;
+      font-weight:900;
+  }
+  
+  .middle{
+      margin-left: 600px;
+  }
+  
+  .flink1{
+      text-decoration: none;
+      display: block;
+      margin-left: 850px;
+      font-size: 18px;
+      color: #ddd;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .flink2{
+    text-decoration: none;
+    margin-left: 850px;
+    font-size: 18px;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .join{
+    margin-left: 620px;
+    margin-top: -85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+  
+  .footer1{
+    background-color: rgb(42, 40, 40);
+  }
+  .ccc{
+    background-color: rgb(42, 40, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:normal;
+    margin-left: 800px;
+  }
+  
+  .ccc h4{
+    margin-top: 10px;
+  }
+  
+  .ccc1{
+    margin-left: 850px;
+    padding-bottom: 10px;
+  }
+  
+  .logo2 {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .socialM{
+    margin-left: 1100px;
+    margin-top: 5px;
+  }
+  .socialMtxt{
+    margin-left: 1150px;
+    margin-top: -75px;
+  }
+  .footer {
+      width: 100%;
+      height: 300px;
+      background-color: rgb(42, 40, 40);
+      color: white;
+      position: relative;
+  }
+  /* Fit Forge Logo in footer */
+  .logo1 {
+      margin-left: 50px;
+      height: 200px;
+      width: 150px;
+  }
+  .img{
+    margin-top: 40px;
+  }
+  
+  /* contact us / about us */
+  .img a{
+    margin-top: -150px;
+  }
+  
+  .contact-info {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    margin-top: 6px;
+    margin-left: 50px;
+  }
+  
+  .contact-info div {
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .spacer {
+    margin: 0 80px;
+  }
+  
+  .calendar {
+      font-family: Arial, sans-serif;
+      margin-left: 760px;
+      margin-top: -150px;
+    }
+    
+  .calendar table {
+      width: 15%;
+      border-collapse: collapse;
+    }
+    
+    .calendar th,
+    .calendar td {
+      padding: 10px;
+      text-align: center;
+      color: #161616;
+      border: 1px solid #ccc;
+      background-color: #e7e7e1;
+    }
+    
+    .calendar th {
+      background-color: #e9e3e3;
+    }
+    
+    .calendar td:hover {
+      background-color: #ce1212;
+    }
+    
+  .today{
+      color: #a19f1a;
+      font-weight:900;
+  }
+  
+  .middle{
+      margin-left: 600px;
+  }
+  
+  .flink1{
+      text-decoration: none;
+      display: block;
+      margin-left: 850px;
+      font-size: 18px;
+      color: #ddd;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .flink2{
+    text-decoration: none;
+    margin-left: 850px;
+    font-size: 18px;
+    color: #ddd;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .join{
+    margin-left: 620px;
+    margin-top: -85px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+  }
+  
+  .footer1{
+    background-color: rgb(42, 40, 40);
+  }
+  .ccc{
+    background-color: rgb(42, 40, 40);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight:normal;
+    margin-left: 800px;
+  }
+  
+  .ccc h4{
+    margin-top: 10px;
+  }
+  
+  .ccc1{
+    margin-left: 850px;
+    padding-bottom: 10px;
+  }
+  
+  .logo2 {
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .socialM{
+    margin-left: 1100px;
+    margin-top: 5px;
+  }
+  .socialMtxt{
+    margin-left: 1150px;
+    margin-top: -75px;
+  }
+  
+  
+  
+  
+  /* ----------------------------------- */
+  .card-slider{
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:white;
+    
+  }
+  .card{
+    background-color: rgb(2, 124, 151);
+    padding: 10px;
+    border: #000000;
+    
+  }
+  .buttonc{
+    width: 95px;
+      height: 30px;
+      background: rgb(5, 21, 22);
+      border: 2px solid rgb(5, 21, 22);
+      margin-top: 13px;
+      color: white;
+      font-size: 17px;
+      border-radius: 5px;
+  }
+  
+  .buttonc:hover{
+    color: rgb(0, 151, 185);
+  }
+  
+  .next{
+    width: 50px;
+      height: 30px;
+      background: rgb(5, 21, 22);
+      border: 2px solid rgb(5, 21, 22);
+      margin-top: 13px;
+      color: white;
+      font-size: 17px;
+      border-radius: 5px;
+    margin-left: 10px;
+  }
+  .next:hover{
+    color: rgb(0, 151, 185);
+  }

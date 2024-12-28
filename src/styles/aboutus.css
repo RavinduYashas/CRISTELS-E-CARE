@@ -1,0 +1,29 @@
+
+.dImages{
+	margin: 25px;
+ }
+ .aRow{
+	display: flex;
+ }
+
+.aboutUsRow{
+	margin: 15px;
+
+	
+}
+
+.dfrom{
+	padding: 15px;
+	border: 50px;
+	border-radius: 10px;
+	background-color:white;
+	margin: 5px;
+	
+}
+
+.dfrom1{
+	height: 475px;
+	width: 800px;
+}
+
+
