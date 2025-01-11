@@ -3,8 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgb(9, 195, 201);
-    
+    /* background-color: rgb(9, 195, 201); */
+    /* background-image: url("../images/pexels-ivaoo-691710.jpg"); */
+    background-image: url("../images/cube-1472804_1920.png");
+    /* background-image: url("../images/pexels-gdtography-277628-911738.jpg"); */
+    /* background-image: url("../images/pexels-jplenio-1103970.jpg"); */
+	background-repeat:no-repeat;
+	background-size:cover;
 }
 
 .main {
@@ -182,7 +187,8 @@ p{
     margin: 20px;
     display: flex;
     flex-wrap: wrap;
-    background-color:white;
+    background-color: #ffffff81 ;
+    border-radius: 50px;
     justify-content: space-evenly;
     padding: 30px;
     padding-bottom: 40px;

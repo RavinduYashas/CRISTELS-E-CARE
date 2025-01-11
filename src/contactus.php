@@ -12,7 +12,7 @@
 		<div class="navbar">
 			<div class="icon">
 			
-				<img src="images/WhatsApp Image 2024-05-04 at 15.29.39_dec4177b.jpg" width="190" height="130">
+			<img src="images/cisLogo.png" width="150" height="auto">
 			</div>
 
 			<div class="manu">
