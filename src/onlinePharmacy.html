@@ -1,131 +1,122 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>CRISTELS E-CARE</title>
-    <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/contactus.css">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Online Pharmacy | CRISTELS E-CARE</title>
+	<link rel="stylesheet" href="styles/styles.css">
 	<script src="js/myScript.js"></script>
-	
 </head>
+
 <body>
 
-	<div class="main">
-		<div class="navbar">
+	<header class="main">
+		<nav class="navbar">
 			<div class="icon">
-			
-				<img src="images/cisLogo.png" width="150" height="auto">
+				<a href="index1.html"><img src="images/cisLogo.png" alt="Cristels E-Care Logo"></a>
 			</div>
 
 			<div class="manu">
 				<ul>
 					<li class="menu"><a href="index1.html">Home</a></li>
-					<li class="menu"><a href="eChannling.html">EChanneling</a></li>
-					<li class="menu"><a href="onlinePharmacy.html">OnlinePharmacy</a></li>
-					<li class="menu"><a href="supportDesk.php">SupportDesk</a></li>
-					<li class="menu"><a href="contactus.php">ContactUs</a></li>
+					<li class="menu"><a href="eChannling.html">E-Channeling</a></li>
+					<li class="menu"><a href="onlinePharmacy.html">Pharmacy</a></li>
+					<li class="menu"><a href="supportDesk.php">Support</a></li>
+					<li class="menu"><a href="contactus.php">Contact</a></li>
 					<li class="menu"><a href="faq.html">FAQ</a></li>
 				</ul>
 			</div>
 
 			<div class="login">
-				 
-				<a href="loging1.html"><button class="btn">login</button></a> 
+				<a href="loging1.html"><button class="btn">Login</button></a>
 			</div>
+		</nav>
+	</header>
 
-		</div>
-
-	</div>
-
-	<br><br>
-		<div class="contactFrom">
-			<h2>Online Pharmacy Customer Information Form</h2>
+	<main class="container">
+		<section class="contactFrom">
+			<h2>Pharmacy Information Form</h2>
+			<p style="text-align: center; color: var(--text-light); margin-bottom: 2rem;">Please provide your details
+				below to process your pharmacy request.</p>
 
 			<form action="#" method="post">
-			
-			<h3>Personal Information:</h3>
-			<label for="full_name">Full Name:</label><br>
-			<input type="text" class="tInput" name="full_name" required><br>
-			
-			<label for="dob">Date of Birth:</label><br>
-			<input type="date" id="dob" name="dob" required><br>
-			
-			<label for="gender">Gender:</label><br>
-			<select id="gender" name="gender">
-				<option value="male">Male</option>
-				<option value="female">Female</option>
-				<option value="other">Other</option>
-			</select><br>
-			
-			<label for="contact_number">Contact Number:</label><br>
-			<input type="tel" class="tInput" name="contact_number" required><br>
-			
-			<label for="email">Email Address:</label><br>
-			<input type="email" class="tInput" name="email" required><br>
-	
-			<h3>Additional Comments/Instructions:</h3>
-			<textarea class="tInput" name="comments" rows="4" cols="50"></textarea><br>
-			
-			<input type="checkbox" class="tInput" name="terms" required><br>
-			<label for="terms">I have read and agree to the Terms and Conditions.</label><br>
-	
-			<input type="submit" id="submitBtn"value="Submit">
-	</form>
+				<h3>Personal Information</h3>
+
+				<div class="form-group">
+					<label for="full_name">Full Name</label>
+					<input type="text" id="full_name" name="full_name" placeholder="Enter your full name" required>
+				</div>
+
+				<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem;">
+					<div class="form-group">
+						<label for="dob">Date of Birth</label>
+						<input type="date" id="dob" name="dob" required>
+					</div>
+
+					<div class="form-group">
+						<label for="gender">Gender</label>
+						<select id="gender" name="gender">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="other">Other</option>
+						</select>
+					</div>
+				</div>
+
+				<div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1rem;">
+					<div class="form-group">
+						<label for="contact_number">Contact Number</label>
+						<input type="tel" id="contact_number" name="contact_number" placeholder="+94 7X XXX XXXX"
+							required>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Email Address</label>
+						<input type="email" id="email" name="email" placeholder="example@mail.com" required>
+					</div>
+				</div>
+
+				<h3>Additional Details</h3>
+				<div class="form-group">
+					<label for="comments">Comments or Instructions</label>
+					<textarea id="comments" name="comments" rows="4"
+						placeholder="Any specific instructions for your prescription..."></textarea>
+				</div>
+
+				<div style="display: flex; align-items: flex-start; gap: 0.5rem; margin: 2rem 0;">
+					<input type="checkbox" id="terms" name="terms" required style="width: auto; margin-top: 0.25rem;">
+					<label for="terms" style="margin: 0; font-size: 0.9rem;">I have read and agree to the <a
+							href="termandcon.html" style="color: var(--primary); text-decoration: underline;">Terms and
+							Conditions</a>.</label>
+				</div>
+
+				<button type="submit" id="submitBtn">Submit Information</button>
+			</form>
+		</section>
+	</main>
+
+	<footer>
+		<div class="foicon">
+			<img src="images/email(1).png" alt="Email">
+			<img src="images/linkedin.png" alt="LinkedIn">
+			<img src="images/instagram.png" alt="Instagram">
+			<img src="images/facebook.png" alt="Facebook">
+			<img src="images/youtube.png" alt="YouTube">
 		</div>
-	<br><br>
 
-    
-	<hr class="hr1">
-	<br><br>
-	
+		<div style="text-align: center;">
+			<a class="fot" href="contactus.php">Contact Us</a>
+			<a class="fot" href="termandcon.html">Terms & Conditions</a>
+			<a class="fot" href="p&p.html">Privacy Policy</a>
+		</div>
 
-
-
-
-	
-	<br><br>
-	 
-    <br><br><br><br>
-	<br><br><br><br>
-	
-				
-	
-    <footer>
-		<center>
-			<div class="foicon">
-				<img src="images/email(1).png" width="30" height="30">
-				<img src="images/linkedin.png" width="30" height="30">
-				<img src="images/instagram.png" width="30" height="30">
-				<img src="images/facebook.png" width="30" height="30">
-				<img src="images/youtube.png" width="30" height="30">
-			</div>
-		
-		<br><br>
-
-			<div>
-
-				<a class="fot" href="contactus.php">ContactUs</a>
-				<a class="fot" href="termandcon.html">Terms&Conditions</a>
-				<a class="fot" href="p&p.html">Privacy&Policy</a>
-				
-			</div>
-
-		</center>
-			<br><br><br>
-			
-			
 		<hr class="hr1">
 
-		<br><br>
-
-		<center>
-			<a class="fot" href="#">@2024 Cristels E-care PLC.ALL rights reserved</a>
-		</center>
-		
-
+		<div class="copyright">
+			<p>&copy; 2024 Cristels E-care PLC. All rights reserved.</p>
+		</div>
 	</footer>
 </body>
+
 </html>
